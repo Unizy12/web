@@ -1,0 +1,7 @@
+drop database if exists web;
+
+create database web;
+
+use web;
+
+grant select, insert, update, delete on web.* to 'root'@'localhost' identified by 'Woaizuguo1997';
